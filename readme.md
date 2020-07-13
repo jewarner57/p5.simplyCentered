@@ -21,7 +21,7 @@ let canvas = createCenteredCanvas(width, height, centerVertically, useFlex);
 centerVertically defaults to false. Set to true if you would like to center the canvas vertically in the window.
 
 Note:
-centerVertically will not work if useFlex is true unless the parent element of the canvas wrapper (<body> by default) has a defined height.
+centerVertically will not work if useFlex is true unless the parent element of the canvas wrapper (body by default) has a defined height.
 
 useFlex defaults to true. If your browser does not support flexbox then set this to false. 
 
